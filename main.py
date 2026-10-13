@@ -11,9 +11,9 @@ def login():
     passwd = passwd_entry.get()
 
     if user == "admin" and passwd == "01":
-        interface.destroy() 
+        interface.destroy() # Close the login window
         
-        
+        # Call the function from your accueil.py file
         accueil.open_homepage()
 
 Tf = app.Label(interface, text="Nom d'utilisateur", bg="pink")
