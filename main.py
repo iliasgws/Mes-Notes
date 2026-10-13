@@ -1,5 +1,5 @@
 import tkinter as app
-import accueil  # Import your new file here
+import accueil  
 
 interface = app.Tk()
 interface.title("Connection | Mes notes")
@@ -11,9 +11,9 @@ def login():
     passwd = passwd_entry.get()
 
     if user == "admin" and passwd == "01":
-        interface.destroy() # Close the login window
+        interface.destroy() 
         
-        # Call the function from your accueil.py file
+        
         accueil.open_homepage()
 
 Tf = app.Label(interface, text="Nom d'utilisateur", bg="pink")
