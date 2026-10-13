@@ -1,0 +1,16 @@
+import tkinter as app
+interface=app.Tk()
+interface.title("aaaaa")
+interface.geometry("700x500")
+interface.config(bg="pink")
+
+Tf=app.Label(interface,text="nom d'utilisateur",bg="pink")
+Tf.pack()
+X=app.Entry(interface,text="nhggnh")
+X.pack()
+d=app.Label(interface,text="mot de passe",bg="pink")
+d.pack()
+X=app.Entry(interface,text="nhggnh")
+X.pack()
+X=app.Button(interface,text="nhggnh")
+X.pack()
